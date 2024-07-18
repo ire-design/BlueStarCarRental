@@ -50,13 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             const response = await fetch('https://freetestapi.com/api/v1/cars');
             const cars = await response.json();
-
+            
             const carList = cars.map(car => `
                 <div class="car-card" id="car-${car.id}">
                     <img src="${car.image}" alt="${car.model}">
                     <h3>${car.make}</h3>
                     <p>Price: $${car.price}/day</p>
-                    <button onclick="initiateBooking(${car.id}, ${car.fuelType}, '${car.mileage}', ${car.price})">
+                    <button onclick="initiateBooking(${car.id}, '${car.mileage}', ${car.price})">
                         Book Now
                     </button>
                 </div>
