@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Toyota Truck",
-      "image": "https://unsplash.com/photos/black-mercedes-benz-g-63-fnE8McnNSIc",
+      "image": "https://example.com/images/toyota_truck.jpg",
       "price": 120,
       "availability": false
     },
@@ -225,6 +225,20 @@
       "startDatetime": "2024-07-18T15:20:00.000Z",
       "endDatetime": "2024-07-27T15:18:00.000Z",
       "totalCost": 6300
+    },
+    {
+      "id": "08d2",
+      "carId": 2,
+      "startDatetime": "2024-07-19T19:44:00.000Z",
+      "endDatetime": "2024-07-31T19:44:00.000Z",
+      "totalCost": 1800
+    },
+    {
+      "id": "9eeb",
+      "carId": 3,
+      "startDatetime": "2024-07-18T19:50:00.000Z",
+      "endDatetime": "2024-08-03T19:50:00.000Z",
+      "totalCost": 8000
     }
   ]
 }
