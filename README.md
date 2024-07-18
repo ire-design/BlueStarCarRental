@@ -54,25 +54,25 @@ View the list of available cars and their details.
 #### Deployment
 - To deploy the project, you can choose from the following platforms:
 
--GitHub Pages:
+- GitHub Pages:
 
-Push your code to a GitHub repository.
-Enable GitHub Pages in the repository settings.
-Netlify/Vercel:
+    Push your code to a GitHub repository.
+    Enable GitHub Pages in the repository settings.
+    Netlify/Vercel:
 
-Connect your Git repository to Netlify/Vercel.
-Follow the instructions to deploy your site.
-Heroku (if using a backend server):
+    Connect your Git repository to Netlify/Vercel.
+    Follow the instructions to deploy your site.
+    Heroku (if using a backend server):
 
-Install the Heroku CLI.
-Create a Heroku app and deploy using git push heroku main.
-Contributing
-We welcome contributions to improve the project! To contribute:
+    Install the Heroku CLI.
+    Create a Heroku app and deploy using git push heroku main.
+    Contributing
+    We welcome contributions to improve the project! To contribute:
 
-Fork the repository.
-Create a new branch for your feature or fix.
-Commit your changes.
-Push your branch and submit a pull request.
+    Fork the repository.
+    Create a new branch for your feature or fix.
+    Commit your changes.
+    Push your branch and submit a pull request.
 
 #### License
 - This project is licensed under the MIT License. See the LICENSE file for details.
