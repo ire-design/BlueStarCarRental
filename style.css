@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --text-color: #000000;
+  --main-color: #83b735;
+  --background-color: #f5f5f5;
+  --accent-color: #ececec;
+}
+
+body {
+  
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: var(--main-color);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+#theme-toggle {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    
+}
+
+.home-text {
+    flex: 1;
+    margin-right: 2rem; 
+}
+
+.login-form {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form button {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    background-color: #83b735;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #6a9624;
+}
+
+.login-form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.login-form a {
+    color: #83b735;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.car-card {
+  margin-top: 20px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--accent-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+}
+
+.car-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}
+
+#contact-form {
+  padding: 20px;
+  border: 1px solid #2c3e50;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+#input {
+  padding: 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+#send-btn {
+  margin-left: 100px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: #83b735;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: rgb(209, 205, 205);
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.dark-mode  {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode header,
+.dark-mode body,
+.dark-mode footer {
+  background-color: black;
+  color: white;
+}
+.dark-mode #main-content {
+  background-color: black;
+}
+
+.dark-mode .car-card {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.datetime-picker {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
