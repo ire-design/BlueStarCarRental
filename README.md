@@ -3,7 +3,7 @@
 - Welcome to the Blue Star Car Rental project! This is a user-friendly online platform that allows users to browse available vehicles, select rental times, and complete bookings seamlessly online.
 
 ## Table of Contents
--Introduction
+- Introduction
 - Features
 - Technologies Used
 - Installation
@@ -28,12 +28,13 @@
 - JavaScript: For dynamic content, event handling, and API interactions.
 - JSONPlaceholder API: For fetching car data.
 - Vercel: For deployment.
+
 ### Installation
-- Clone the Repository:
+- Clone the Repositoryand Navigate to the Project Directory:
 
 ```
 git clone https://github.com/ire-design/Week4PROJECT
-- Navigate to the Project Directory:
+
 
 ```
 cd blue-star-car-rental
@@ -58,21 +59,23 @@ View the list of available cars and their details.
 
     Push your code to a GitHub repository.
     Enable GitHub Pages in the repository settings.
+
     Netlify/Vercel:
 
     Connect your Git repository to Netlify/Vercel.
     Follow the instructions to deploy your site.
+
     Heroku (if using a backend server):
 
     Install the Heroku CLI.
     Create a Heroku app and deploy using git push heroku main.
-    Contributing
-    We welcome contributions to improve the project! To contribute:
+#### Contributing
+- We welcome contributions to improve the project! To contribute:
 
-    Fork the repository.
-    Create a new branch for your feature or fix.
-    Commit your changes.
-    Push your branch and submit a pull request.
+- Fork the repository.
+- Create a new branch for your feature or fix.
+- Commit your changes.
+- Push your branch and submit a pull request.
 
 #### License
 - This project is licensed under the MIT License. See the LICENSE file for details.
