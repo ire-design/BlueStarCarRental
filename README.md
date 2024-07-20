@@ -18,10 +18,11 @@
 ### Features
 - Dynamic Car Listings: Fetches car data dynamically from an API and displays available vehicles.
 - Booking System: Allows users to book cars with date validation and confirmation.
-**Time Validation**
-![add items image](./images/startEndDate.png)
-**Fill in both start and end time and dates**
+- **Time Validation** 
 ![add items image](./images/FillBoth.png)
+
+- **Fill in both start and end time and dates**
+![add items image](./images/startEndDate.png)
 
 - Theme Toggle: Users can switch between light and dark themes.
 ![add items image](./images/ToggleTheme.png)
