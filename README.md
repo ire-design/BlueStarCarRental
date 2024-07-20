@@ -44,7 +44,7 @@
 git clone https://github.com/ire-design/Week4PROJECT
 
 
-``` bash
+``` 
 cd blue-star-car-rental
 
 - Open index.html in Your Browser:
