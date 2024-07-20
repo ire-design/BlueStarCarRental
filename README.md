@@ -18,7 +18,14 @@
 ### Features
 - Dynamic Car Listings: Fetches car data dynamically from an API and displays available vehicles.
 - Booking System: Allows users to book cars with date validation and confirmation.
--Theme Toggle: Users can switch between light and dark themes.
+**Time Validation**
+![add items image](./images/startEndDate.png)
+**Fill in both start and end time and dates**
+![add items image](./images/FillBoth.png)
+
+- Theme Toggle: Users can switch between light and dark themes.
+![add items image](./images/ToggleTheme.png)
+
 - Responsive Design: Optimized for various devices and screen sizes.
 - Error Handling: Proper error handling for booking failures and other issues.
 
@@ -36,7 +43,7 @@
 git clone https://github.com/ire-design/Week4PROJECT
 
 
-```
+``` bash
 cd blue-star-car-rental
 
 - Open index.html in Your Browser:
